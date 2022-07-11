@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "random": "ruby",
+        "functional": "ruby",
+        "__functional_03": "ruby",
+        "ios": "ruby",
+        "bitset": "ruby",
+        "chrono": "ruby",
+        "algorithm": "ruby",
+        "__bit_reference": "ruby",
+        "unordered_map": "ruby"
+    }
+}
