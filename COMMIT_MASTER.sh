@@ -10,4 +10,4 @@ git checkout -b $branch
 git pull
 git add .
 git commit -m "$type($topic): $details"
-git push origin $branch
+git push git@github.com:KKtheGhost/Kivinsae-LeetCode-Ruby.git $branch
