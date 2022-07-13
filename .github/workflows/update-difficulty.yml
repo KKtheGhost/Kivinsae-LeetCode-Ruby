@@ -19,8 +19,8 @@ jobs:
 
       - name: Clone, Generate, Commit and Push the repo
         run: |-
-          git clone git@github.com:KKtheGhost/Kivinsae-LeetCode-C.git
-          cd Kivinsae-LeetCode-C
+          git clone git@github.com:KKtheGhost/Kivinsae-LeetCode-Ruby.git
+          cd Kivinsae-LeetCode-Ruby
           ./Link_Gen.sh
           git config --global user.email "kivinsae@gmail.com" && git config --global user.name "KKtheGhost"
           git add . && git commit -m ":boom:(CICD) Auto-Gen Difficulty Directory" || exit 0
